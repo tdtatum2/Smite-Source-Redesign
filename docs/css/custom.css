@@ -8,8 +8,9 @@
 }
 
 .news-photo {
-    width: 75%;
+    width: 100%;
     height: auto;
+    align-self: center;
 }
 
 .white-heading {
