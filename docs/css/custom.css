@@ -1,3 +1,17 @@
 * {
     background-color: #262e42;
 }
+
+.nav-logo {
+    width: 50%;
+    height: auto;
+}
+
+.news-photo {
+    width: 75%;
+    height: auto;
+}
+
+.white-heading {
+    color: #FFFFFF;
+}
