@@ -1,24 +1,78 @@
-* {
+
+body {
     background-color: #262e42;
 }
 
+nav {
+    background-color: #11182b;
+    height: 6em;
+}
+
+nav ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .nav-logo {
-    width: 25%;
+    width: 60%;
     height: auto;
+    float: left;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-right {
+    margin-top: 1em;
 }
 
 .news-photo {
-    width: 150%;
+    width: 100%;
     height: auto;
     align-self: center;
 }
 
 .white-heading {
     color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2em;
 }
 
 nav ul li a {
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+.socials {
+    background-color: #11182b;
+    height: 22em;
+}
+
+.news {
+    border: 0.2em solid #febe26;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.gold {
+    color: #febe26;
+    padding: 0;
+    margin: 0;
+}
+
+#twitchembed {
+    margin-right: 9%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #11182b;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
 }
