@@ -58,28 +58,15 @@
     <!-- Stream and YouTube Container -->
     <div class="container socials">
       <h1 class="white-heading">Jump in the Twitch stream or check out YouTube!</h1>
-      <!--
+  <!--
       <iframe id="twitchembed"
         src="https://player.twitch.tv/smitegame"
         height="70%"
         width="45%"
         allowfullscreen="true">
       </iframe> -->
-      <div id="twitch-embed"></div>
-
-    <!-- Load the Twitch embed JavaScript file -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 45%,
-        height: 70%,
-        channel: "smitegame",
-        // Only needed if this page is going to be embedded on other websites
-        parent: ["tdtatum2.github.io/smitesource/"]
-      });
-    </script>
+      <iframe src="https://player.twitch.tv?autoplay=false&amp;channel=smitegame&amp;height=100%25&amp;muted=false&amp;parent=tdtatum2.github.io/smitesource/&amp;playsinline=true&amp;referrer=https%3A%2F%2Ftdtatum2.github.io/smitesource/%2F&amp;video=&amp;width=100%25" allowfullscreen="" scrolling="no" frameborder="0" allow="autoplay; fullscreen" title="Twitch" sandbox="allow-modals allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" width="100%" height="100%"></iframe>
+    
       <iframe width="45%" height="70%" src="https://www.youtube.com/embed/YmPCJJlmv9w"
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
       clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
