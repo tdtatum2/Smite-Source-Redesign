@@ -5,4 +5,4 @@ A Front-End Web Development project that centered on finding a website to redesi
 
 
 # Update (4/1/2023)
-The website has since been updated to a much more modern design, but the goals of the initial project still stand.
+The website has since been updated to a much more modern design, but the goals of the initial project still stand. Although, there was a much better way to modularize the application and avoid the insane amount of separate HTML files :)
